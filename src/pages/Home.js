@@ -9,7 +9,7 @@ function Home() {
       <div className="about">
         <h2>Hi, my name is Sabīne</h2>
         <div className="prompt">
-          <p>A web developer with a passion for learning and creating.</p>
+          <p>A graphic designer with a passion for web development.</p>
           <LinkedInIcon />
           <GithubIcon />
         </div>
