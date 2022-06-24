@@ -2,7 +2,7 @@
 .navbar {
     width: 100%;
     height: 100px;
-    background: #21325e;
+    background: #25002d;
   }
   
   .links {
@@ -32,7 +32,7 @@
   .toggleButton svg {
     font-size: 50px;
   }
-  
+
   .toggleButton button {
     margin-right: 20px;
     background-color: transparent;
