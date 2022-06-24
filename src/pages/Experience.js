@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -9,6 +9,13 @@ import WorkIcon from "@mui/icons-material/Work";
 import "../styles/Experience.css";
 
 function Experience() {
+  const [workExperience, setWorkExperience] = useState([
+    {
+      position: "Graphic Designer",
+      type: "Freelnace",
+      company: "",
+    },
+  ]);
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#3e497a">
@@ -16,6 +23,7 @@ function Experience() {
           className="vertical-timeline-element--work"
           date="2014 - ongoing"
           iconStyle={{ background: "#5e0275", color: "#fff" }}
+          contentArrowStyle={{ borderRight: '20px solid #fff' }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">Graphic Designer</h3>
@@ -24,11 +32,13 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2021 - 2021"
+          date="09 - 12.2021"
           iconStyle={{ background: "#5e0275", color: "#fff" }}
           icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Junior Frontend Developer</h3>
+          <h3 className="vertical-timeline-element-title">
+            Junior Frontend Developer
+          </h3>
           <h5 className="vertical-timeline-element-subtitle">Internship</h5>
           <p>Accenture Baltics</p>
         </VerticalTimelineElement>
