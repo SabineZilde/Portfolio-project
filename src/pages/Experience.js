@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -9,13 +9,6 @@ import WorkIcon from "@mui/icons-material/Work";
 import "../styles/Experience.css";
 
 function Experience() {
-  const [workExperience, setWorkExperience] = useState([
-    {
-      position: "Graphic Designer",
-      type: "Freelnace",
-      company: "",
-    },
-  ]);
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#3e497a">
