@@ -9,6 +9,7 @@ function Navbar() {
   const location = useLocation();
 
   // Set expandNavbar to false, if the location changes
+  // Closes expanded navbar on click
   useEffect(() => {
     setExpandNavbar(false);
   }, [location]);
