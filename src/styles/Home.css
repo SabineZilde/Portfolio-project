@@ -17,7 +17,7 @@
   animation: Gradient 25s ease infinite;
   color: #f0f0f0;
 
-  background: linear-gradient(132deg, #FC415A, #591BC5, #25002d);
+  background: linear-gradient(132deg, #25002d, #25002d, #FC415A);
   background-size: 400% 400%;
 }
 
@@ -38,7 +38,7 @@
 .about h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 80px;
-  color: rgb(255, 213, 0);
+  color: #ffd500;
   height: 150px;
 }
 
