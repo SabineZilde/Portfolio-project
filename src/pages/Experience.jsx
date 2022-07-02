@@ -7,36 +7,31 @@ import 'react-vertical-timeline-component/style.min.css';
 import SchoolIcon from "@mui/icons-material/School";
 import WorkIcon from "@mui/icons-material/Work";
 import "../styles/Experience.css";
+import { ExperienceList } from '../helpers/ExperienceList';
 
 function Experience() {
   return (
     <div className="experience">
-      <VerticalTimeline lineColor="#3e497a">
+      <VerticalTimeline lineColor="#25002d">
+        {ExperienceList.map((experience, idx) => {
+          return (
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date={experience.date}
+              iconStyle={{ background: "#ffd500", color: "#fff" }}
+              contentArrowStyle={{ borderRight: '20px solid #fff' }}
+              icon={<WorkIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">{experience.title}</h3>
+              <h5 className="vertical-timeline-element-subtitle">{experience.type}</h5>
+              <p>{experience.company}</p>
+            </VerticalTimelineElement>
+          )
+        })}
+
+       
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2014 - ongoing"
-          iconStyle={{ background: "#5e0275", color: "#fff" }}
-          contentArrowStyle={{ borderRight: '20px solid #fff' }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">Graphic Designer</h3>
-          <h5 className="vertical-timeline-element-subtitle">Freelance</h5>
-          <p>Various non-profit/pro bono individual projects</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="09 - 12.2021"
-          iconStyle={{ background: "#5e0275", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Junior Frontend Developer
-          </h3>
-          <h5 className="vertical-timeline-element-subtitle">Internship</h5>
-          <p>Accenture Baltics</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element--education"
           date="2018 - 2020"
           iconStyle={{ background: "#42c108", color: "#fff" }}
           icon={<SchoolIcon />}

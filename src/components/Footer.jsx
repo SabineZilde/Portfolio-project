@@ -6,11 +6,11 @@ import '../styles/Footer.css'
 function Footer() {
   return (
     <div className='footer'>
-        <div className='socialMedia'>
+      <div className='socialMedia'>
         <a href='https://www.linkedin.com/in/sabinezilde'><LinkedInIcon /></a>
-          <a href="https://github.com/SabineZilde"><GithubIcon /></a>
-        </div>
-        <p> &copy; 2022 kalibrize.com</p>
+        <a href="https://github.com/SabineZilde"><GithubIcon /></a>
+      </div>
+      <p> &copy; 2022 kalibrize.com</p>
     </div>
   )
 }
