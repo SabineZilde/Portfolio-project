@@ -7,8 +7,8 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='socialMedia'>
-            <LinkedInIcon />
-            <GithubIcon />
+        <a href='https://www.linkedin.com/in/sabinezilde'><LinkedInIcon /></a>
+          <a href="https://github.com/SabineZilde"><GithubIcon /></a>
         </div>
         <p> &copy; 2022 kalibrize.com</p>
     </div>

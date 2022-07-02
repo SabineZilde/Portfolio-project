@@ -10,8 +10,8 @@ function Home() {
         <h2>Hi, my name is Sabīne</h2>
         <div className="prompt">
           <p>A graphic designer with a passion for web development.</p>
-          <LinkedInIcon />
-          <GithubIcon />
+          <a href='https://www.linkedin.com/in/sabinezilde'><LinkedInIcon /></a>
+          <a href="https://github.com/SabineZilde"><GithubIcon /></a>
         </div>
       </div>
       <div className="skills">
