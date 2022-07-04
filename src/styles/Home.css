@@ -3,6 +3,8 @@
   align-items: center;
   font-family: "Arial", sans-serif;
   color: #25002d;
+  display: flex;
+  flex-direction: column;
 }
 
 .about {
@@ -55,12 +57,17 @@
 
 .skills {
   font-size: 1.2em;
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 40px;
+  margin-top: -90px;
+  padding: 30px 0 50px;
+  background-color: #f0f0f0;
+  border-radius: .25em;
+  border: #25002d2c solid 0.5px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 }
 
 .skills h1 {
@@ -69,11 +76,11 @@
 
 .skills .list {
   list-style: none;
-  width: 60%;
+  width: 80%;
 }
 
 .skills h2 {
-  margin: 20px 0 10px;
+  margin: 30px 0 10px;
 }
 
 .list span {
@@ -82,7 +89,7 @@
 
 @media only screen and (max-width: 600px) {
   .about h2 {
-    font-size: 1em;
+    font-size: 2em;
   }
 
   .about .prompt {
@@ -100,6 +107,10 @@
   }
 
   .skills h2 {
-    font-size: 30px;
+    font-size: 1.1em;
+  }
+
+  .list span {
+    font-size: 0.9em;
   }
 }
