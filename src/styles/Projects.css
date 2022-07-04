@@ -8,12 +8,12 @@
     flex-direction: column;
 }
 
-.projects .projectTitle {
+/* .projects .projectTitle {
     text-align: center;
     color: #25002d;
     font-size: 60px;
     font-weight: bolder;
-}
+} */
 
 .projectList {
     height: auto;
