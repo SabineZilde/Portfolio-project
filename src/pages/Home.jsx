@@ -1,6 +1,4 @@
 import React from "react";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GithubIcon from "@mui/icons-material/GitHub";
 import '../styles/Home.css';
 
 function Home() {
@@ -10,8 +8,7 @@ function Home() {
         <h2>Hi, my name is Sabīne</h2>
         <div className="prompt">
           <p>A graphic designer with a passion for web development.</p>
-          <a href='https://www.linkedin.com/in/sabinezilde'><LinkedInIcon /></a>
-          <a href="https://github.com/SabineZilde"><GithubIcon /></a>
+          
         </div>
       </div>
       <div className="skills">
