@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
 import ReorderIcon from "@mui/icons-material/Reorder";
-import logo from '../assets/icon.jpg';
+import logo from '../assets/white_ico.png';
 
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
