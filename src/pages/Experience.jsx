@@ -5,9 +5,10 @@ import {
 } from "react-vertical-timeline-component";
 import 'react-vertical-timeline-component/style.min.css';
 import SchoolIcon from "@mui/icons-material/School";
+import WorkIcon from '@mui/icons-material/Work'
+import InternshipIcon from '@mui/icons-material/WorkOutline'
 import "../styles/Experience.css";
 import { ExperienceList } from '../helpers/ExperienceList';
-import Setupad from '../assets/setupad.png'
 
 function Experience() {
   return (
@@ -18,8 +19,9 @@ function Experience() {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               date={experience.date}
-              contentStyle={{ color: '#25002d'}}
-              iconStyle={{ backgroundImage: `url("https://content.sifted.eu/wp-content/uploads/2020/03/27110820/STUPAD-LOGO.png")`, backgroundSize: '50px', backgroundPosition: '', backgroundRepeat: 'no-repeat', color: "#fff" }}
+              contentStyle={{ color: '#25002d' }}
+              iconStyle={{ background: "#25002d", color: "#fff" }}
+              icon={experience.type === 'Full-time' ? <WorkIcon /> : <InternshipIcon />}
               contentArrowStyle={{ borderRight: '20px solid #fff' }}
               key={idx}
             >
@@ -30,7 +32,7 @@ function Experience() {
           )
         })}
 
-       
+
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2018 - 2020"
