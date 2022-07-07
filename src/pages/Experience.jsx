@@ -7,6 +7,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import SchoolIcon from "@mui/icons-material/School";
 import WorkIcon from '@mui/icons-material/Work'
 import InternshipIcon from '@mui/icons-material/WorkOutline'
+import CastForEducationIcon from '@mui/icons-material/CastForEducation';
 import "../styles/Experience.css";
 import { ExperienceList } from '../helpers/ExperienceList';
 
@@ -32,7 +33,22 @@ function Experience() {
           )
         })}
 
-
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="02.2021 - 07.2021"
+          iconStyle={{ background: "#42c108", color: "#fff" }}
+          icon={<CastForEducationIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Riga TechGirls & Accenture Baltics
+          </h3>
+          <h5 className="vertical-timeline-element-subtitle">
+            She Goes Tech
+          </h5>
+          <p>
+            JavaScript Bootcamp (220 h)
+          </p>
+        </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2018 - 2020"
