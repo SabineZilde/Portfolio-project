@@ -12,6 +12,17 @@ import "../styles/Experience.css";
 import { ExperienceList } from '../helpers/ExperienceList';
 
 function Experience() {
+  const toggleColor = (type) => {
+    if (type === 'work') {
+      return '#25002d';
+    } else if (type === 'education') {
+      return 'grey';
+    } else if (type === 'certificate') {
+      return 'brown';
+    } else {
+      return 'pink';
+    };
+  };
 
   const toggleIcon = (type) => {
     if (type === 'work') {
@@ -34,7 +45,7 @@ function Experience() {
               className="vertical-timeline-element--work"
               date={experience.date}
               contentStyle={{ color: '#25002d' }}
-              iconStyle={{ background: "#25002d", color: "#fff" }}
+              iconStyle={{ background: `${toggleColor(experience.type)}`, color: "#fff" }}
               icon={toggleIcon(experience.type)}
               contentArrowStyle={{ borderRight: '20px solid #fff' }}
               key={idx}
