@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -12,6 +12,8 @@ import "../styles/Experience.css";
 import { ExperienceList } from '../helpers/ExperienceList';
 
 function Experience() {
+  const [icon, setIcon] = useState(<WorkIcon />);
+
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#25002d">
@@ -22,12 +24,12 @@ function Experience() {
               date={experience.date}
               contentStyle={{ color: '#25002d' }}
               iconStyle={{ background: "#25002d", color: "#fff" }}
-              icon={experience.type === 'Full-time' ? <WorkIcon /> : <InternshipIcon />}
+              icon={icon}
               contentArrowStyle={{ borderRight: '20px solid #fff' }}
               key={idx}
             >
               <h3 className="vertical-timeline-element-title">{experience.title}</h3>
-              <h5 className="vertical-timeline-element-subtitle">{experience.type}</h5>
+              <h5 className="vertical-timeline-element-subtitle">{experience.subtitle}</h5>
               <p>{experience.company}</p>
             </VerticalTimelineElement>
           )
