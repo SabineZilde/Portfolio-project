@@ -38,7 +38,8 @@ export const ExperienceList = [
         title: 'Front Office & Revenue Manager',
         subtitle: 'Full-time',
         company: 'Airport Hotel Māra',
-        date: 'Jan 2018 - Sep 2020'
+        date: 'Jan 2018 - Sep 2020',
+        type: 'work'
     },
     {
         title: 'Digital Humanities',
