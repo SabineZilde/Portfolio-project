@@ -16,11 +16,11 @@ function Experience() {
     if (type === 'work') {
       return '#25002d';
     } else if (type === 'education') {
-      return 'grey';
+      return '#FC415A';
     } else if (type === 'certificate') {
-      return 'brown';
+      return '#713068';
     } else {
-      return 'pink';
+      return '#f38f9c';
     };
   };
 
