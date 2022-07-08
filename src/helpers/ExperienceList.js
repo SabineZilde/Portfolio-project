@@ -49,13 +49,6 @@ export const ExperienceList = [
         type: 'education'
     },
     {
-        title: 'Graphic Design',
-        subtitle: 'Bachelor of Fine Arts',
-        company: 'University of Latvia',
-        date: 'Sep 2008 - Feb 2014',
-        type: 'education'
-    },
-    {
         title: 'FO Manager <- FO supervisor <- FO Receptionist',
         subtitle: 'Full-time',
         company: 'Best Western Hotel Māra',
@@ -82,6 +75,13 @@ export const ExperienceList = [
         company: 'DUE design',
         date: 'Jul 2011 - Aug 2011',
         type: 'internship'
+    },
+    {
+        title: 'Graphic Design',
+        subtitle: 'Bachelor of Fine Arts',
+        company: 'University of Latvia',
+        date: 'Sep 2008 - Feb 2014',
+        type: 'education'
     },
     {
         title: 'Rental Sales Agent',
