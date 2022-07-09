@@ -10,6 +10,7 @@ import InternshipIcon from '@mui/icons-material/WorkOutline'
 import CastForEducationIcon from '@mui/icons-material/CastForEducation';
 import "../styles/Experience.css";
 import { ExperienceList } from '../helpers/ExperienceList';
+import logo from '../assets/icon.jpg'
 
 function Experience() {
   const toggleColor = (type) => {
@@ -50,9 +51,14 @@ function Experience() {
               contentArrowStyle={{ borderRight: '20px solid #fff' }}
               key={idx}
             >
-              <h3 className="vertical-timeline-element-title">{experience.title}</h3>
-              <h5 className="vertical-timeline-element-subtitle">{experience.subtitle}</h5>
-              <p>{experience.company}</p>
+              <div style={{ display: 'flex', alignItems: 'center'}}>
+                <img src={logo} alt="" style={{ height: '50px' }} />
+                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+                  <h3 className="vertical-timeline-element-title">{experience.title}</h3>
+                  <h5 className="vertical-timeline-element-subtitle">{experience.subtitle}</h5>
+                  <p>{experience.company}</p>
+                </div>
+              </div>
             </VerticalTimelineElement>
           )
         })}
