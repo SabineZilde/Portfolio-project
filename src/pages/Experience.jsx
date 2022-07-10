@@ -51,9 +51,9 @@ function Experience() {
               contentArrowStyle={{ borderRight: '20px solid #fff' }}
               key={idx}
             >
-              <div style={{ display: 'flex', alignItems: 'center'}}>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-evenly' }}>
                 <img src={logo} alt="" style={{ height: '50px' }} />
-                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
                   <h3 className="vertical-timeline-element-title">{experience.title}</h3>
                   <h5 className="vertical-timeline-element-subtitle">{experience.subtitle}</h5>
                   <p>{experience.company}</p>
