@@ -84,6 +84,14 @@
   text-align: center;
 }
 
+#open .toggleButton {
+  display: none;
+}
+
+#open .icons {
+  display: none;
+}
+
 @media only screen and (max-width: 900px) {
   .navbar {
     justify-content: space-between;

@@ -22,15 +22,6 @@ function Navbar() {
       <div className='logo'>
         <Link to='/'> <img src={logo} alt="Logo" /> </Link>
       </div>
-      <div className="toggleButton">
-        <button
-          onClick={() => {
-            setExpandNavbar((prev) => !prev);
-          }}
-        >
-          <ReorderIcon />
-        </button>
-      </div>
       <div className="links">
         <Link to="/"> Home </Link>
         <Link to="/projects"> Projects </Link>
@@ -39,6 +30,15 @@ function Navbar() {
       <div className="icons">
         <a href='https://www.linkedin.com/in/sabinezilde'><LinkedInIcon /></a>
         <a href="https://github.com/SabineZilde"><GithubIcon /></a>
+      </div>
+      <div className="toggleButton">
+        <button
+          onClick={() => {
+            setExpandNavbar((prev) => !prev);
+          }}
+        >
+          <ReorderIcon />
+        </button>
       </div>
     </div>
   );
