@@ -88,13 +88,18 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .about {
+    justify-content: flex-start;
+  }
+
   .about h2 {
-    font-size: 2em;
+    padding-top: 200px;
+    font-size: 2.5em;
   }
 
   .about .prompt {
-    margin-top: 10px;
-    font-size: 20px;
+    margin-top: 30px;
+    font-size: 1.5em;
     width: 80%;
   }
 
