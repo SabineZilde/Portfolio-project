@@ -2,3 +2,19 @@
     font-weight: 100;
     padding-top: 5px;
 }
+
+.element-container {
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    height: 50px;
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
