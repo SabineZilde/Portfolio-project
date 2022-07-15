@@ -4,17 +4,12 @@
 }
 
 .element-container {
-    display: flex; 
-    align-items: center;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    place-items: center;
+    align-content: center;
 }
 
-.logo {
+.company-logo {
     height: 50px;
-}
-
-.text-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
 }
