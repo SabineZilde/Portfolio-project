@@ -6,7 +6,7 @@ export const ExperienceList = [
         company: 'Setupad',
         date: 'Jul 2022 - ongoing',
         type: 'work',
-        logo: 'https://content.sifted.eu/wp-content/uploads/2020/03/27110820/STUPAD-LOGO.png'
+        logo: 'https://media-exp1.licdn.com/dms/image/C4D0BAQHiyPgEVuvS1A/company-logo_200_200/0?e=2159024400&v=beta&t=lkMXYpJzqdjwUTDFIjLigAQIf052IB3FRe9g0e76CMI'
     },
     {
         title: 'Graphic Designer',
@@ -14,7 +14,7 @@ export const ExperienceList = [
         company: 'Various non-profit/pro bono individual projects',
         date: 'Mar 2014 - ongoing',
         type: 'freelance',
-        logo: '../assets/icon.jpg'
+        logo: 'https://szilde.files.wordpress.com/2020/11/kalibrize-2.jpg'
     },
     {
         title: 'Junior Frontend Developer',
@@ -22,7 +22,7 @@ export const ExperienceList = [
         company: 'Accenture Baltics',
         date: 'Sep 2021 - Dec 2021',
         type: 'internship',
-        logo: 'https://www.accenture.com/t00010101T000000Z__w__/it-it/_acnmedia/Accenture/Conversion-Assets/DotCom/Images/Global/Dualpub_173/Accenture-Dimensional-Purple-Consulting-ACN-Logo.png'
+        logo: 'https://www.savethechildren.org/content/dam/usa/images/donors/partners/logos/accenture-rec.png/_jcr_content/renditions/cq5dam.thumbnail.360.360.png'
     },
     {
         title: 'JavaScript Bootcamp',
@@ -68,34 +68,39 @@ export const ExperienceList = [
         subtitle: 'Internship',
         company: 'Rija Films',
         date: 'Dec 2012 - Apr 2013',
-        type: 'internship'
+        type: 'internship',
+        logo: 'https://i.vimeocdn.com/portrait/4240171_640x640  '
     },
     {
         title: 'Graphic Designer',
         subtitle: 'Internship',
         company: 'Jurmala Primarry school "Atvase"',
         date: 'Aug 2011 - Nov 2011',
-        type: 'internship'
+        type: 'internship',
+        logo: 'https://szilde.files.wordpress.com/2022/05/logo-for-portfolio2.jpg'
     },
     {
         title: 'Graphic Designer',
         subtitle: 'Internship',
         company: 'DUE design',
         date: 'Jul 2011 - Aug 2011',
-        type: 'internship'
+        type: 'internship',
+        logo: 'https://www.lob.lv/wp-content/uploads/2019/09/DUE_dizains_logo.png   '
     },
     {
         title: 'Graphic Design',
         subtitle: 'Bachelor of Fine Arts',
         company: 'University of Latvia',
         date: 'Sep 2008 - Feb 2014',
-        type: 'education'
+        type: 'education',
+        logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQHQNX_XViZa5Q/company-logo_200_200/0?e=2159024400&v=beta&t=xHellJQ6M2-OKTqFjR9_ycsqdczTBdVsQHRP_wZf1og'
     },
     {
         title: 'Rental Sales Agent',
         subtitle: 'Full-time',
         company: 'Budget Car Rental',
         date: 'Aug 2007 - Apr 2009',
-        type: 'work'
+        type: 'work',
+        logo: 'https://i.insider.com/5194f2a1ecad044f69000021'
     }
 ];
