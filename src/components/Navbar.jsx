@@ -4,10 +4,12 @@ import "../styles/Navbar.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GithubIcon from "@mui/icons-material/GitHub";
 import ReorderIcon from "@mui/icons-material/Reorder";
+import CloseIcon from "@mui/icons-material/Close";
 import logo from '../assets/white_ico.png';
 
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
+  const [toggleButton, setToggleButton] = useState(<ReorderIcon />);
 
   const location = useLocation();
 
@@ -16,11 +18,14 @@ function Navbar() {
   useEffect(() => {
     setExpandNavbar(false);
   }, [location]);
-
+ 
   return (
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
       <div className='logo'>
         <Link to='/'> <img src={logo} alt="Logo" /> </Link>
+      </div>
+      <div className="closeButton">
+        {toggleButton}
       </div>
       <div className="links">
         <Link to="/"> Home </Link>
@@ -35,9 +40,10 @@ function Navbar() {
         <button
           onClick={() => {
             setExpandNavbar((prev) => !prev);
+            setToggleButton(<CloseIcon />);
           }}
         >
-          <ReorderIcon />
+          {toggleButton}
         </button>
       </div>
     </div>
