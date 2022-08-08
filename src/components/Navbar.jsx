@@ -6,6 +6,7 @@ import GithubIcon from "@mui/icons-material/GitHub";
 import ReorderIcon from "@mui/icons-material/Reorder";
 import CloseIcon from "@mui/icons-material/Close";
 import logo from '../assets/white_ico.png';
+import Close from "@mui/icons-material/Close";
 
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
@@ -17,15 +18,13 @@ function Navbar() {
   // Closes expanded navbar on click
   useEffect(() => {
     setExpandNavbar(false);
+    setToggleButton(<ReorderIcon />);
   }, [location]);
  
   return (
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
       <div className='logo'>
         <Link to='/'> <img src={logo} alt="Logo" /> </Link>
-      </div>
-      <div className="closeButton">
-        {toggleButton}
       </div>
       <div className="links">
         <Link to="/"> Home </Link>
@@ -40,7 +39,7 @@ function Navbar() {
         <button
           onClick={() => {
             setExpandNavbar((prev) => !prev);
-            setToggleButton(<CloseIcon />);
+            setToggleButton(expandNavbar === false ? <CloseIcon /> : <ReorderIcon />);
           }}
         >
           {toggleButton}

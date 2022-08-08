@@ -92,20 +92,12 @@
   text-align: center;
 }
 
-#open .toggleButton {
+/* #open .toggleButton {
   display: none;
-}
+} */
 
 #open .icons {
   display: none;
-}
-
-#close .closeButton {
-  display: none;
-}
-
-#open .closeButton {
-
 }
 
 @media only screen and (max-width: 900px) {
