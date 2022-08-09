@@ -3,9 +3,11 @@ import Proj2 from '../assets/serveimage.jpg';
 
 export const ProjectList = [
     {
-        title: 'Proje name 1',
+        title: 'E-Commerce SPA',
         image: Proj1,
-        skills: 'HTML, CSS, JavaScript, React'
+        skills: 'HTML, CSS, Flexbox, Styled Components, JavaScript, React, Class Components, React Router Dom, Context API, Apollo Client',
+        deskription: 'E-commerce SPA with category page, product page, alerts, cart, dropdown minicart and several currency options. Fetching data from the GraphQL endpoint.',
+        link: 'https://github.com/SabineZilde/Entry-ReactDev-Test'
     },
     {
         title: 'Proj name 2',

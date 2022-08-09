@@ -18,7 +18,8 @@
   }
 
   .project p {
-    font-size: 1.3em;
+    width: 70%;
+    font-size: 1.2em;
     padding: 20px;
     color: #25002d;
   }
