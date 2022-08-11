@@ -6,7 +6,6 @@ import GithubIcon from "@mui/icons-material/GitHub";
 import ReorderIcon from "@mui/icons-material/Reorder";
 import CloseIcon from "@mui/icons-material/Close";
 import logo from '../assets/white_ico.png';
-import Close from "@mui/icons-material/Close";
 
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
