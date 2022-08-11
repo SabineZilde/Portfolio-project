@@ -13,6 +13,7 @@ export const ProjectList = [
         title: 'Input validation',
         image: Proj2,
         skills: 'HTML, CSS, JavaScript, React, JSX, Functional Components, Hooks, React Router Dom, Cors, Express, Axios, MySQL',
+        deskription: 'Input validation for responsive subscription page. Saving data in MySQL database.',
         link: 'https://github.com/SabineZilde/Task-for-JrWebDev-Position'
     },
     {
