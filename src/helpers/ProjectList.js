@@ -6,21 +6,22 @@ export const ProjectList = [
         title: 'E-Commerce SPA',
         image: Proj1,
         skills: 'HTML, CSS, Flexbox, Styled Components, JavaScript, React, JSX, Class Components, React Router Dom, Context API, Apollo Client',
-        deskription: 'E-commerce SPA with category page, product page, alerts, cart, dropdown minicart and several currency options. Fetching data from the GraphQL endpoint.',
+        description: 'E-commerce SPA with category page, product page, alerts, cart, dropdown minicart and several currency options. Fetching data from the GraphQL endpoint.',
         link: 'https://github.com/SabineZilde/Entry-ReactDev-Test'
     },
     {
         title: 'Input validation',
         image: Proj2,
         skills: 'HTML, CSS, JavaScript, React, JSX, Functional Components, Hooks, React Router Dom, Cors, Express, Axios, MySQL',
-        deskription: 'Input validation for responsive subscription page. Saving data in MySQL database.',
+        description: 'Input validation for responsive subscription page. Saving data in MySQL database.',
         link: 'https://github.com/SabineZilde/Task-for-JrWebDev-Position'
     },
     {
-        title: 'JS Bootcamp Final Task',
+        title: 'Bootcamp II Final Task',
         image: Proj1,
         skills: 'HTML, CSS, JavaScript, React, JSX, Functional Components, Node JS, Cors, NPM, Dotenv, MongoDB, Docker-compose, Express, Nodemon, Axios, Bootstrap, Hooks, Lightbox',
-        deskription: 'Final Task for JavaScript Bootcamp (Riga TechGirls & Accenture training program "She Goes Tech").'
+        description: 'Final Task for JavaScript/Web development Bootcamp (Riga TechGirls & Accenture training program "She Goes Tech").',
+        link: 'https://github.com/SabineZilde/Final-Task-React-Webpage'
     },
     {
         title: 'Proj name 2',
