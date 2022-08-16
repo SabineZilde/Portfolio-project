@@ -17,9 +17,10 @@ export const ProjectList = [
         link: 'https://github.com/SabineZilde/Task-for-JrWebDev-Position'
     },
     {
-        title: 'Proje name 1',
+        title: 'JS Bootcamp Final Task',
         image: Proj1,
-        skills: 'HTML, CSS, JavaScript, React'
+        skills: 'HTML, CSS, JavaScript, React, JSX, Functional Components, Node JS, Cors, NPM, Dotenv, MongoDB, Docker-compose, Express, Nodemon, Axios, Bootstrap, Hooks, Lightbox',
+        deskription: 'Final Task for JavaScript Bootcamp (Riga TechGirls & Accenture training program "She Goes Tech").'
     },
     {
         title: 'Proj name 2',
