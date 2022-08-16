@@ -96,7 +96,7 @@ export const ExperienceList = [
         logo: 'https://media-exp1.licdn.com/dms/image/C4E0BAQHQNX_XViZa5Q/company-logo_200_200/0?e=2159024400&v=beta&t=xHellJQ6M2-OKTqFjR9_ycsqdczTBdVsQHRP_wZf1og'
     },
     {
-        title: 'Rental Sales Agent',
+        title: 'Rental Sales Agent / Customer Care',
         subtitle: 'Full-time',
         company: 'Budget Car Rental',
         date: 'Aug 2007 - Apr 2009',
