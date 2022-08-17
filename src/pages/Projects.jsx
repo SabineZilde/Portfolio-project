@@ -9,11 +9,11 @@ function Projects() {
     <div className="projects">
       <h1>My personal projects</h1>
       <Loader />
-      <div className="projectList">
+      {/* <div className="projectList">
         {ProjectList.map((project, idx) => {
           return <ProjectItem title={project.title} image={project.image} id={idx} key={idx} />;
         })}
-      </div>
+      </div> */}
     </div>
   );
 }
