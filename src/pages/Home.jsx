@@ -12,7 +12,7 @@ function Home() {
         </div>
       </div>
       <div className="skills">
-        <h1>Skills</h1>
+        <h1>My stack</h1>
         <ol className="list">
           <li className="item">
             <h2>Frontend</h2>
