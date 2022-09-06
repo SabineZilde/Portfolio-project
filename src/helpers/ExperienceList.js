@@ -45,7 +45,8 @@ export const ExperienceList = [
         subtitle: 'Full-time',
         company: 'Airport Hotel Māra',
         date: 'Jan 2018 - Sep 2020',
-        type: 'work'
+        type: 'work',
+        logo: 'http://hotelmara.lv/pictures/news/6f47e514db38b445f58f642a7d97b19c.png'
     },
     {
         title: 'Digital Humanities',
