@@ -1,5 +1,6 @@
-import Proj1 from '../assets/mms.png';
+import Proj1 from '../assets/E-commerce.png';
 import Proj2 from '../assets/serveimage.jpg';
+import Proj3 from '../assets/mms.png';
 
 export const ProjectList = [
     {
@@ -18,7 +19,7 @@ export const ProjectList = [
     },
     {
         title: 'Bootcamp II Final Task',
-        image: Proj1,
+        image: Proj3,
         skills: 'HTML, CSS, JavaScript, React, JSX, Functional Components, Node JS, Cors, NPM, Dotenv, MongoDB, Docker-compose, Express, Nodemon, Axios, Bootstrap, Hooks, Lightbox',
         description: 'Final Task for JavaScript/Web development Bootcamp (Riga TechGirls & Accenture training program "She Goes Tech").',
         link: 'https://github.com/SabineZilde/Final-Task-React-Webpage'
