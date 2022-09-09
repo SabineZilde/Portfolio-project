@@ -1,6 +1,6 @@
 import Proj1 from '../assets/E-commerce.png';
 import Proj2 from '../assets/Validation.png';
-import Proj3 from '../assets/mms.png';
+import Proj3 from '../assets/ReactFinal2.png';
 import Proj4 from '../assets/serveimage.jpg';
 
 export const ProjectList = [
