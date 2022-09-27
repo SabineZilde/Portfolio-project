@@ -9,8 +9,8 @@ function Projects() {
     <div className="projects">
       {/* <Loader /> */}
       <div className="projectList">
-        <Link to='/projects/webdev'><ProjectItem title='Web Development' /></Link>
-        <Link to='/projects/graphicdesign'><ProjectItem title='Graphic Design' /></Link>
+        <Link to='/projects/webdev'><ProjectItem title='Web Development' image="https://senotrix.co.uk/wp-content/uploads/2019/12/senotrixuxui5-scaled.jpg" /></Link>
+        <Link to='/projects/graphicdesign'><ProjectItem title='Graphic Design' image="https://programmerblog.net/wp-content/uploads/2021/04/career-in-designing-and-graphics.png" /></Link>
       </div>
     </div>
   );
