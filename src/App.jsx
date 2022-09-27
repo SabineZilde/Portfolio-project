@@ -6,7 +6,8 @@ import Experience from "./pages/Experience";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProjectDisplay from "./pages/ProjectDisplay";
-import Webdev from "./pages/WebDev";
+import GraphDiz from "./pages/GraphDiz";
+import WebDev from "./pages/WebDev";
 
 function App() {
   return (
@@ -16,8 +17,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path='/projects/graphicdesign' element={<ProjectDisplay />} />
-          <Route path='/projects/webdev' element={<Webdev />} />
+          <Route path='/projects/graphicdesign' element={<GraphDiz />} />
+          <Route path='/projects/webdev' element={<WebDev />} />
           <Route path='/project/:id' element={<ProjectDisplay />} />
           <Route path="/experience" element={<Experience />} />
         </Routes>
