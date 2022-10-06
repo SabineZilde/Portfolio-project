@@ -6,7 +6,7 @@ function WebDev() {
   return (
     <div className="projects">
         <h1>My web development projects</h1>
-        <div className="webDevList">
+        <div className="projectGrid">
         {ProjectList.map((project, idx) => {
           return <ProjectItem title={project.title} image={project.image} id={idx} key={idx} />;
         })}

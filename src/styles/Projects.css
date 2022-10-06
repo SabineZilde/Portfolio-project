@@ -22,7 +22,7 @@
     place-items: center;
 }
 
-.webDevList {
+.projectGrid {
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
